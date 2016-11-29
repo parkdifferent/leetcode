@@ -14,7 +14,7 @@ public class BinarySearch {
         int right = a.length -1;
 
         while(left <= right) {
-            int middle = left + ((right - left) >> 1);  //·ÀÖ¹Òç³ö£¬ÒÆÎ»Ò²¸ü¸ßĞ§¡£Í¬Ê±£¬Ã¿´ÎÑ­»·¶¼ĞèÒª¸üĞÂ¡£
+            int middle = left + ((right - left) >> 1);  //é˜²æ­¢æº¢å‡ºï¼Œç§»ä½ä¹Ÿæ›´é«˜æ•ˆã€‚åŒæ—¶ï¼Œæ¯æ¬¡å¾ªç¯éƒ½éœ€è¦æ›´æ–°ã€‚
             if(a[middle] < targer) {
                 left = middle +1;
             }
